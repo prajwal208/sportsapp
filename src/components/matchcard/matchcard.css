@@ -1,0 +1,131 @@
+.match_card_main_wrap {
+    width: 100%;
+    padding: 3.125rem 6.25rem;
+}
+
+.match_header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.match_header h2 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #414141;
+}
+
+.seeAll {
+    color: #051DA0;
+    font-weight: 700;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+.match_card_list {
+    display: flex;
+    overflow-x: auto;
+    gap: 2rem;
+    padding: 1rem;
+}
+.match_card_list::-webkit-scrollbar {
+    display: none;
+}
+.matchcard {
+    flex: 0 0 auto;
+    width: 30%;
+    padding: 1.25rem 2.5rem;
+    border-radius: 1.25rem;
+    margin-top: 1.875rem;
+    -webkit-box-shadow: -2px 2px 16px -4px rgba(0,0,0,0.59);
+-moz-box-shadow: -2px 2px 16px -4px rgba(0,0,0,0.59);
+box-shadow: -2px 2px 16px -4px rgba(0,0,0,0.59);
+}
+
+h3 {
+    background-color: #a6add5;
+    color: #051DA0;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 1.25rem;
+}
+
+.team_name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.team_list {
+    font-size: 0.75rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.match_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.time {
+    color: #E85643;
+    font-weight: 700;
+}
+
+.date {
+    color: #797878;
+    font-weight: 700;
+}
+
+.side {
+    color: #B79900;
+    background-color: #8e821721;
+    padding: 0.25rem 0.8rem;
+    border-radius: 0.8rem;
+    font-size: 1rem;
+}
+
+.match_team {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    margin-top: 1.25rem;
+}
+
+@media screen and (max-width:600px) {
+    .match_card_main_wrap {
+        padding: 1rem 1.5rem;
+    }
+
+    .matchcard {
+        width: 90%;
+        padding: 1rem;
+    }
+
+    .match_header h2 {
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: #414141;
+    }
+
+    .seeAll{
+        font-size: 1rem;
+    }
+
+    .side {
+        font-size: 0.75rem;
+        padding: 0.25rem 0.8rem;
+    }
+
+    .team_list {
+        text-align: center;
+    }
+
+    .match_card_list {
+        padding: 0.5rem;
+        gap: 1rem; 
+    }
+}

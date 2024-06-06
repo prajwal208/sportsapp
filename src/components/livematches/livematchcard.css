@@ -1,0 +1,77 @@
+.match_card_main_wrap{
+    width: 100%;
+    padding: 3.125rem 6.25rem;
+}
+
+.match_header{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+h3{
+    background-color:#a6add5 ;
+    color: #051DA0;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 1.25rem;
+}
+.team_name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.live_match_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.live_score{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.live{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #797878;
+}
+.live_team_score1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.live_icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+    background-color: #D92020;
+    color: #fff;
+    font-weight: 700;
+    padding: 0.25rem 1rem;
+    border-radius: 2rem;
+}
+
+.match_team{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    margin-top: 1.25rem;
+}
+
+
+@media screen and (max-width:600px) {
+    .match_card_main_wrap{
+        width: 100%;
+        padding: 1rem 1.5rem;
+    }
+}
